@@ -1,24 +1,21 @@
+---
+    import experience from "../services/experience.json"
+---
+
 <div class="mb-4 flex items-center">
     <h2 class="text-2xl font-semibold text-gray-300">Experience</h2>
 </div>
 <ol class="relative border-l border-gray-700">                  
-    <li class="ml-4 mb-10">
-        <div class="absolute w-3 h-3  rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"></div> 
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500">March 2022 - March 2023</time>
-        <h3 class="text-lg font-semibold">Intermediate Full Stack Developer</h3>
-        <p class="text-base font-normal text-gray-400">Nazaries Intelligenia</p>     
-          
-    </li>
-    <li class="ml-4 mb-10">
-        <div class="absolute w-3 h-3  rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"></div> 
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500">May 2021 - March 2022</time>
-        <h3 class="text-lg font-semibold">Junior Full Stack Developer</h3>
-        <p class="text-base font-normal text-gray-400">Nazaries Intelligenia</p>       
-    </li>
-    <li class="ml-4 mb-10">
-        <div class="absolute w-3 h-3  rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"></div> 
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2020 - December 2021</time>
-        <h3 class="text-lg font-semibold">Internship Full Stack Developer</h3>
-        <p class="text-base font-normal text-gray-400">Nazaries Intelligenia</p>       
-    </li>
+    {
+        experience.map(experience => {
+            return(
+                <li class="ml-4 mb-10">
+                    <div class="absolute w-3 h-3  rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"></div> 
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-500">{experience.period}</time>
+                    <h3 class="text-lg font-semibold">{experience.position}</h3>
+                    <p class="text-base font-normal text-gray-400">{experience.company}</p>    
+                </li> 
+            )
+        })
+    }
 </ol>   
