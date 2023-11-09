@@ -1,0 +1,19 @@
+---
+import skill from "../services/skill.json"
+---
+
+<div class="mb-4 flex items-center">
+	<h2 class="text-2xl font-semibold text-gray-300">Skills</h2>
+</div>
+
+<div class="flex flex-row gap-4 justify-center">
+	{
+		skill.map(skill =>{
+			return(
+				<div class="bg-yellow-300 w-content text-center h-10 flex items-center p-4">
+					{skill.alt}
+				</div>
+			)
+		})
+	}
+</div>

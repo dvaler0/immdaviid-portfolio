@@ -1,12 +1,22 @@
 [
 	{
 		"company": "Nazaries Intelligenia",
-		"period": "May 2021 - March 2023",
+		"period": "March 2022 - March 2023",
 		"position": "Mid Full Stack Developer"
 	},
 	{
-		"company": "Freelancer",
-		"period": "May 2021 - Now",
+		"company": "Nazaries Intelligenia",
+		"period": "May 2021 - March 2022",
 		"position": "Junior Full Stack Developer"
+	},
+	{
+		"company": "Freelance",
+		"period": "May 2021 - Now",
+		"position": "Full Stack Developer"
+	},
+	{
+		"company": "Nazaries Intelligenia",
+		"period": "September 2020 - December 2020",
+		"position": "Internship Full Stack Developer"
 	}
 ]
