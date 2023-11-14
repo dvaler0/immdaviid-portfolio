@@ -1,42 +1,8 @@
 [
-    {
-        "alt": "",
-        "img": ""
-    },
-    {
-        "alt": "React.js",
-        "img": ""
-    },
-    {
-        "alt": "Ruby on Rails",
-        "img": ""
-    },
-    {
-        "alt": "Astro",
-        "img": ""
-    },
-    {
-        "alt": "Javascript",
-        "img": ""
-    },
-    {
-        "alt": "Typescript",
-        "img": ""
-    },
-    {
-        "alt": "mySQL",
-        "img": ""
-    },
-    {
-        "alt": "Tailwind CSS",
-        "img": ""
-    },
-    {
-        "alt": "Docker",
-        "img": ""
-    },
-    {
-        "alt": "Git",
-        "img": ""
-    }
+  {
+    "name": "Ruby on Rails"
+  },
+  {
+    "name": "React"
+  }
 ]

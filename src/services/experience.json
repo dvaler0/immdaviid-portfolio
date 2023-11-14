@@ -1,22 +1,45 @@
 [
 	{
 		"company": "Nazaries Intelligenia",
-		"period": "March 2022 - March 2023",
-		"position": "Mid Full Stack Developer"
+		"period": "Mar 2022 - Mar 2023 - 1 year, Granada",
+		"position": "Intermediate Full Stack Developer",
+		"aditional_info": "Same tasks and responsibilities as described in my junior position, plus:",
+		"responsibilities": [
+			"Daily meetings with the client to follow up on the project.",
+			"Deployment the application to production environment, using both Capistrano and Bitbucket pipelines.",
+			"Design of software architecture patterns and decision making on tasks priority.",
+			"Estimation of new features and requirements delivery time with client, using Jira Software as main tool."
+		]
 	},
 	{
 		"company": "Nazaries Intelligenia",
-		"period": "May 2021 - March 2022",
-		"position": "Junior Full Stack Developer"
+		"period": "May 2021 - Mar 2022 - 10 months, Granada (Spain)",
+		"position": "Junior Full Stack Developer",
+		"aditional_info": "",
+		"responsibilities": [
+			"Development of a Restful API using Ruby on Rails connected to a PostgreSQL database.",
+			"Development of front-end tasks with React.js and Angular.js.",
+			"Following Scrum/Agile methodology..",
+			"Following TDD methodology."
+		]
 	},
 	{
-		"company": "Freelance",
-		"period": "May 2021 - Now",
-		"position": "Full Stack Developer"
+		"company": "Freelancer",
+		"period": "Jun 2020 - Now - 3 years, Granada (Spain)",
+		"position": "Full Stack Developer",
+		"aditional_info": "",
+		"responsibilities": [
+			"Development of different apps using Ruby on Rails as the Backend and React.js as the Frontend."
+		]
 	},
 	{
 		"company": "Nazaries Intelligenia",
-		"period": "September 2020 - December 2020",
-		"position": "Internship Full Stack Developer"
+		"period": "Sept 2020 - Dec 2020 - 3 months, Granada (Spain)",
+		"position": "Full Stack Developer Internship",
+		"aditional_info": "",
+		"responsibilities": [
+			"Refactoring of an existing web app using Ruby on Rails.",
+			"Creation and maintenance of differents websites using Wordpress and Prestashop."
+		]
 	}
 ]

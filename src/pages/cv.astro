@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import LeftSection from "../components/LeftSection.astro";
 ---
 
 <Layout title="CV">
-	<div class="mt-16 mb-16 flex flex-row justify-between items-center">
+	<div class="flex flex-col items-center justify-between gap-8 mt-16 mb-16 text-center md:flex-row md:text-left">
 		<div>
 			<h1 class="text-4xl">David Valero</h1>
 			<h2 class="text-xl">Full Stack Developer</h2>
@@ -21,31 +22,23 @@ import Layout from "../layouts/Layout.astro";
 		</div>
 	</div>
 	
-	<div class="flex flex-row justify-between text-gray-400 leading-7">
-		<div>
-			<h3 class="text-gray-300 font-light tracking-widest">EXPERIENCE</h3>
-			<h4 class="font-bold">Intermediate Full Stack Developer</h4>
-			<h5>Nazaries Intelligenia</h5>
-			<h6 class="text-sm text-gray-300">Mar 2022 - Mar 2023 - 1 year, Granada</h6>
-			<p>Same tasks and responsibilities as described in my junior position, plus:</p>
-			<ul class="list-disc list-inside">
-				<li>Daily meetings with the client to follow up on the project.</li>
-				<li>Deployment the application to production environment, using both Capistrano and Bitbucket pipelines.</li>
-				<li>Design of software architecture patterns and decision making on tasks priority.</li>
-				<li>Estimation of new features and requirements delivery time with client, using Jira Software as main tool.</li>
-			</ul>
+	<div class="flex flex-col justify-between leading-7 text-gray-400 md:flex-row">
+		<div class="flex flex-col gap-16">
+			<LeftSection />
 		</div>
+		
+
+		<!-- ASIDE -->
 		<div class="max-w-xs">
-			<div>
-				<p>
-					valeroterrondavid@gmail.com <br>
-					Granada, Spain
-				</p>
-				<span>About me</span>
-				<p>
-					I'm passionate about building high-quality web applications that solve real-world problems and make people's lives easier. 
-				</p>
-			</div>
+			<p>
+				valeroterrondavid@gmail.com <br>
+				Granada, Spain
+			</p>
+			<span class="font-bold">About me</span>
+			<p>
+				I'm passionate about building high-quality web applications that solve real-world problems and make people's lives easier. 
+			</p>
 		</div>
+
 	</div>
 </Layout>
