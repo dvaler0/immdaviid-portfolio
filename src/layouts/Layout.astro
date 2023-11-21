@@ -10,7 +10,7 @@ import Header from '../components/Header.astro';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bg-gray-950">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
@@ -31,9 +31,13 @@ import Header from '../components/Header.astro';
 <style is:global>
 	html {
 		font-family: system-ui, sans-serif;
-		background: #13151a;
 		background-size: 224px;
-		background-image: radial-gradient(#1d2028 1px, transparent 1px);
 		background-size: 46px 46px;
+		
+	}
+
+	::selection {
+  color: white;
+  background: rgb(250 204 21);;
 	}
 </style>

@@ -1,9 +1,30 @@
 [
   {
-    "title": "Frame",
-    "description" : "🎨 Generate images with beautiful gradients.",
-    "tags": ["Next.js","Typescript", "Tailwind CSS", "Zustand"],
-    "url" : "https://myframe.vercel.app/",
-    "url_repo": "https://github.com/pheralb/frame"
+    "title": "Website",
+    "description" : "💻 My personal website",
+    "tags": ["Astro", "Tailwind CSS"],
+    "url" : "https://immdaviid.com/",
+    "url_repo": "https://github.com/dvaler0/website"
+  },
+  {
+    "title": "Website",
+    "description" : "💻 My personal website",
+    "tags": ["Astro", "Tailwind CSS"],
+    "url" : "https://immdaviid.com/",
+    "url_repo": "https://github.com/dvaler0/website"
+  },
+  {
+    "title": "Website",
+    "description" : "💻 My personal website",
+    "tags": ["Astro", "Tailwind CSS"],
+    "url" : "https://immdaviid.com/",
+    "url_repo": "https://github.com/dvaler0/website"
+  },
+  {
+    "title": "Website",
+    "description" : "💻 My personal website",
+    "tags": ["Astro", "Tailwind CSS"],
+    "url" : "https://immdaviid.com/",
+    "url_repo": "https://github.com/dvaler0/website"
   }
 ]
