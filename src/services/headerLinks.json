@@ -1,10 +1,12 @@
 [
   {
     "title": "CV",
-    "url": "/public/david-valero-terron-cv-spanish.pdf"
+    "url": "https://github.com/dvaler0/website/blob/master/public/david-valero-terron-cv-spanish.pdf",
+    "target": "_blank"
   },
   {
     "title": "Blog",
-    "url": "/blog"
+    "url": "/blog",
+    "target": "_self"
   }
 ]
