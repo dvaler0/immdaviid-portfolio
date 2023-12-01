@@ -8,7 +8,7 @@
   },
   {
     "title": "GTA (Guess The Anthem)",
-    "description" : "💽 Guess the song and the radio station from a random Grand Theft Auto video game",
+    "description" : "💽 Guess the GTA song",
     "tags": ["Ruby on Rails"],
     "url" : "https://github.com/dvaler0/gta-quiz",
     "url_repo": "https://github.com/dvaler0/gta-quiz"
