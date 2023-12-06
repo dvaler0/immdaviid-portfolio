@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="public/images/github_readme.png" alt="Screenshot" />
+</div>
+
 ## ⚙️ Commands
 
 | Command                   | Action                                           |
