@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/images/github_readme.png" alt="Screenshot" />
+  <img src="public/images/github-readme.png" alt="Screenshot" />
 </div>
 
 ## ⚙️ Commands
