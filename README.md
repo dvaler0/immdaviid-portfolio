@@ -2,7 +2,7 @@
   <img src="public/images/github-readme.png" alt="Screenshot" />
 </div>
 
-## ⚙️ Commands
+⚙️ Commands
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
